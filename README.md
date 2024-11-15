@@ -1,80 +1,77 @@
 # Google - Machine Learning Crash Course
-This repository contains solutions and implementations of programming exercises from Google's **Machine Learning Crash Course (MLCC)**. The course provides a fast-paced, practical introduction to machine learning, featuring video lectures, interactive visualizations, and hands-on practice. It covers fundamental and advanced machine learning concepts, including regression, classification, handling numerical data, and addressing fairness and bias in machine learning systems.
+This repository contains solutions to the programming exercises from the **Machine Learning Crash Course** by Google. The course provides an introduction to machine learning, including essential ML concepts such as linear regression, classification, data processing, and addressing fairness in ML systems. It is designed to help individuals understand how to use machine learning techniques to solve real-world problems.
 
 ## Course Overview
 
-The **Machine Learning Crash Course** is designed for individuals looking to understand the basics of machine learning. It is a great starting point for anyone interested in learning how to apply machine learning techniques to real-world problems.
+The **Machine Learning Crash Course (MLCC)** is a practical, hands-on introduction to machine learning, featuring interactive visualizations, video lectures, and 100+ exercises. It covers the following topics:
+- **Linear Regression** and **Logistic Regression**
+- **Classification**
+- **Handling Numerical and Categorical Data**
+- **Fairness in Machine Learning Models**
+- **Neural Networks and Large Language Models**
+- **ML Production Systems and Automation**
 
-- **Course Duration**: ~15 hours
-- **Modules**: 12 modules covering a range of machine learning topics
-- **Hands-on Exercises**: 100+ exercises
+### Course Details:
+- **Duration**: ~15 hours
+- **Modules**: 12 interactive modules
+- **Hands-on exercises**: 100+ exercises
 
-The following topics are included in the course:
-- **ML Models**: Linear regression, logistic regression, and binary classification.
-- **Data Handling**: Working with numerical and categorical data, generalization, and overfitting.
-- **Advanced ML Models**: Introduction to neural networks, embeddings, and large language models.
-- **Real-World ML**: Best practices for production ML systems, AutoML, and ML fairness.
+For more information, visit the [Machine Learning Crash Course by Google](https://developers.google.com/machine-learning/crash-course).
 
 ## Programming Exercises
 
-The following programming exercises were completed as part of this course:
+This repository contains the following programming exercises from the MLCC:
 
 ### 1. **Linear Regression**
 
-In this exercise, I implemented a **linear regression** model to predict continuous values based on input features. Linear regression is one of the simplest and most commonly used algorithms for regression tasks. The goal is to find the best-fitting line that minimizes the difference between predicted and actual values. The exercise covers:
-- Linear models
-- Loss function
-- Gradient descent
-- Hyperparameter tuning
+In this exercise, a linear regression model was implemented to predict continuous outcomes based on input features. The model uses the gradient descent algorithm to minimize the error between the predicted and actual values.
 
 **File**: `linear_regression.ipynb`  
-**Explanation**: This notebook includes the implementation of a linear regression model using the gradient descent optimization method to minimize the loss function.
+**Explanation**: The notebook covers linear models, loss function, gradient descent optimization, and hyperparameter tuning.
 
 ### 2. **Classification**
 
-This exercise involved implementing a **logistic regression** model for binary classification. The model predicts the probability of a given outcome (e.g., success or failure). Logistic regression uses a sigmoid function to output values between 0 and 1, which can be interpreted as probabilities.
+In this exercise, a logistic regression model was created to predict the probability of binary outcomes. This exercise included evaluating model performance using various metrics like confusion matrix, accuracy, precision, recall, and AUC.
 
 **File**: `classification.ipynb`  
-**Explanation**: The notebook demonstrates the use of logistic regression, evaluates performance with confusion matrices, and calculates accuracy, precision, recall, and AUC.
+**Explanation**: The notebook demonstrates the use of logistic regression and metrics for classification problems, along with model evaluation techniques.
 
 ### 3. **Working with Numerical Data**
 
-This exercise focuses on the techniques used to handle and preprocess **numerical data** effectively. The primary tasks include analyzing, transforming, and cleaning the data. Specific challenges addressed include:
-- Handling missing or incorrect values
-- Scaling and normalizing numerical features
+This exercise focuses on handling and transforming **numerical data**. Key techniques covered include identifying and handling missing or invalid data, scaling, and normalizing numerical features to improve model performance.
 
 **File**: `Numerical data (Programming Statistics and bad values).ipynb`  
-**Explanation**: This notebook covers common transformations like data imputation and feature scaling to prepare data for training machine learning models.
+**Explanation**: The notebook includes data preprocessing techniques such as imputation and feature scaling, preparing data for training machine learning models.
 
 ### 4. **Fairness in Machine Learning**
 
-In this exercise, I explored how to detect and address **bias** and **fairness** issues in machine learning models. ML models can inadvertently reflect biases present in the data, which can lead to unfair or inaccurate predictions. The exercise covers:
-- Identifying bias in data
-- Auditing models for fairness
-- Implementing techniques to mitigate bias
+In this exercise, the focus was on addressing **bias** and **fairness** in machine learning models. It covered techniques for detecting bias in datasets and implementing strategies to mitigate fairness issues.
 
 **File**: `Fairness.ipynb`  
-**Explanation**: This notebook implements fairness audits for machine learning models, including strategies to identify and mitigate bias in predictions.
+**Explanation**: The notebook explores fairness auditing, identifying biases in models, and implementing methods to reduce the impact of biases on predictions.
 
 ## Repository Structure
 
-- `linear_regression.ipynb`: Code implementation of linear regression for continuous prediction tasks.
-- `classification.ipynb`: Code implementation of logistic regression for binary classification tasks.
-- `Numerical data (Programming Statistics and bad values).ipynb`: Code handling the transformation of numerical data, including imputation and scaling.
-- `Fairness.ipynb`: Code to identify and mitigate bias and fairness issues in machine learning models.
+The repository contains the following Jupyter notebooks:
+- `linear_regression.ipynb`: Linear regression implementation.
+- `classification.ipynb`: Logistic regression and binary classification.
+- `Numerical data (Programming Statistics and bad values).ipynb`: Numerical data preprocessing and cleaning.
+- `Fairness.ipynb`: Auditing models for fairness and addressing bias.
 
 ## Getting Started
 
-To run the exercises and test the models, follow the steps below:
+To get started with the exercises, follow these steps:
 
 ### Prerequisites
 
+Ensure you have the following installed:
 - Python 3.x
-- Required Python libraries: `numpy`, `pandas`, `matplotlib`, `sklearn`, `jupyter`
+- Jupyter Notebook
+- Required Python libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
 
 ### Installation
 
-1. Clone the repository:
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/ml-crash-course-exercises.git
+   git clone https://github.com/firatozen/Google---Machine-Learning-Crash-Course.git
