@@ -1,6 +1,4 @@
 # Google - Machine Learning Crash Course
-# Machine Learning Crash Course by Google - Programming Exercises
-
 This repository contains solutions and implementations of programming exercises from Google's **Machine Learning Crash Course (MLCC)**. The course provides a fast-paced, practical introduction to machine learning, featuring video lectures, interactive visualizations, and hands-on practice. It covers fundamental and advanced machine learning concepts, including regression, classification, handling numerical data, and addressing fairness and bias in machine learning systems.
 
 ## Course Overview
